@@ -1,0 +1,42 @@
+.admin{
+    background-color: rgba(143, 76, 23, 0.04);
+}
+.admin__inner{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.admin__img{
+    width: 50%;
+}
+.text-block-shop{
+    padding-top: 250px;
+}
+.admin__inner-comment{
+    padding-bottom: 200px;
+}
+@media (max-width:991px){
+    .admin__inner{
+        display: block;
+    }
+    .text-block-shop{
+        padding: 60px 30px;
+        text-align: right;
+
+    }
+    .admin__img{
+        width: 100%;  
+        overflow: hidden;  
+}
+}
+@media(max-width:610px){
+    
+        .admin__inner-comment{
+         padding-bottom: 0;
+    }
+}
+@media(max-width:440px){
+    .admin__img{
+        display: none;
+    }
+}

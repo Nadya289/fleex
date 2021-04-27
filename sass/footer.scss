@@ -1,0 +1,35 @@
+.footer{
+    background-color: rgb(243, 225, 168);
+    background: url(../img/footer/fon.png) center no-repeat;
+    background-size: cover;
+    font-family: $robotoFont;    
+    height: 517px;
+}
+.footer__inner{
+    padding: 100px 0 0 120px;
+}
+.footer__text{
+    padding: 57px 0 22px;
+    font-family: $robotoFont;  
+    color:#fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.footer__lang{
+    font-family: $robotoFont;  
+    color:#fff;
+    font-size: 14px;
+    padding: 29px 0 22px;
+    display: flex;
+    align-items: center;
+}
+.footer__lang img{
+    padding-right: 5px;
+}
+.footer__inf{
+    font-family: $robotoFont;  
+    font-size: 12px;
+    color:rgba(255, 255, 255, 0.6);
+
+}
